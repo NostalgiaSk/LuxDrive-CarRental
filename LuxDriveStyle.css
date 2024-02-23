@@ -1,3 +1,77 @@
-.nav-item {
-    margin-right: 10px; /* Adjust the margin as needed */
+.navbar {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    background-color: black !important;
+}
+
+body {
+    font-family: 'Figtree';
+    font-size: 22px;
+}
+
+#home-page {
+    background-color: black;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+.car-image-home {
+    height: 100%;
+    width: fit-content;
+    width: min-content;
+    object-fit: cover;
+}
+
+h1.display-4.text-white {
+    font-family: 'Figtree', serif;
+    font-weight: bold;
+}
+
+p.lead.text-white {
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn.btn-primary.btn-lg.icon-button-transparent {
+    background-color: black;
+    border: none;
+    display: flex; 
+    align-items: center;
+}
+
+.round-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.home-divider {
+    color: beige;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    h1.display-4.text-white {
+        font-size: 28px;
+    }
+    
+    p.lead.text-white {
+        font-size: 18px;
+    }
 }
