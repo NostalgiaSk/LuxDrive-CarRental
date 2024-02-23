@@ -15,14 +15,20 @@ body {
     background-size: cover;
     background-position: center;
     background-clip: border-box;
+    width: 100%; 
+    box-sizing: border-box; /
 }
 
 .car-image-home {
     height: 100%;
-    width: fit-content;
-    width: min-content;
+    width: 100%; 
     object-fit: cover;
 }
+
+#home-headings{
+   padding-left: 80px;
+}
+
 
 h1.display-4.text-white {
     font-family: 'Figtree', serif;
@@ -57,6 +63,18 @@ p.lead.text-white {
     color: beige;
 }
 
+.rent-form{
+    white-space: nowrap;
+    width: 80vh;
+}
+
+.form-group{
+    display: inline-block;
+    width: 25%; /* Each div takes up 25% of the container's width */
+    text-align: center; /* Optional: Center content horizontally */
+    border: 1px solid black; 
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         padding-left: 20px !important;
@@ -74,4 +92,6 @@ p.lead.text-white {
     p.lead.text-white {
         font-size: 18px;
     }
+ 
 }
+
