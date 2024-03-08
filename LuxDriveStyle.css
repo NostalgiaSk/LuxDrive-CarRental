@@ -376,6 +376,27 @@ p.lead.text-white {
     z-index: 0; 
 }
 
+#our_services_section{
+    height: 65vh;
+    background-color: #000000;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.service-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
 
 @media screen and (max-width:100vh) {
     .navbar {
