@@ -138,6 +138,8 @@ p.lead.text-white {
     font-size: smaller;
 }
 
+/*  -------------Cars Collection section ---------------------------*/
+
 #RentByBrand{
     height: 100vh;
 }
@@ -165,7 +167,7 @@ p.lead.text-white {
     background-color: #F5F5F5;
 }
 
-/*  -------------Cars Collection section ---------------------------*/
+
 
 .car-category {
     display: flex;
@@ -278,11 +280,30 @@ p.lead.text-white {
 }
 
 .car-cta-icon {
-    font-size: 1.2rem;
-    color: #ffffff;
+    font-size: 1rem;
+    color: black;
+}
+.car-cta-icon:hover {
+    color: #91eb7b;
+    transform: scale(1.1);
 }
 
+.see-more-btn {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 32px;
+    width: 50%;
+}
 
+.see-more-btn:hover{
+    color: #91eb7b;
+    transform: scale(1.1);
+}
 
 
 
