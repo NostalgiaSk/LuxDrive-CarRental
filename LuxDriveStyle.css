@@ -86,7 +86,7 @@ p.lead.text-white {
     background-color: #e0e0e0;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    margin: 30px;
+    margin: 100px;
 }
 
 .form-group{
@@ -305,6 +305,76 @@ p.lead.text-white {
     transform: scale(1.1);
 }
 
+/* -------------------How it works section-------------------------------------- */
+
+
+#how_it_works_section {
+    height: 100vh;
+    position: relative; /* Add this line */
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    margin-right: 100px;
+}
+.list-unstyled{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 75%;
+
+}
+
+.list-unstyled li {
+    display: flex; 
+    align-items: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+    height: 150px;
+    background-color: white;
+}
+
+.list-unstyled li img {
+    margin-right: 10px; 
+    background-color: #e9e9e9;
+    size: 30px;
+    margin-left: 30px;
+}
+
+.list-unstyled li div {
+    flex-grow: 1; 
+    margin: 10px;
+}
+
+.list-unstyled li h3,
+.list-unstyled li p {
+    margin: 5px;
+}
+
+.steps_container {
+    width: 50%;
+    z-index: 2; 
+    position: relative;
+}
+
+.steps_image {
+    background-color:#F5F5F5;
+    border-radius: 30px;
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    z-index: 0; 
+}
 
 
 @media screen and (max-width:100vh) {
